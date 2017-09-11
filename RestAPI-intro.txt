@@ -1,0 +1,32 @@
+What is API and REST
+API=Application Programming Interface
+REST=Representational State Transfer
+
+Suppose you have a TV.It has 2 things a remote and a screen
+1)remote is the interface by which you change channels and communicate with TV.
+2)TV is the application which you are interacting..So this can be termed as Application Human Interface
+
+So Suppose,youtube is the application and we search videos from our computers through a series of endpoints
+youtube.com/search/myvideo
+
+Some popular APIS are uber,youtube,google maps
+So these companies expose a set of functionalities from their codebase to be used by other programmers
+
+Now REST:
+-It is a set of identifiable properties/guidelines how we should design our APIs
+-It has some set of properties
+
+https://www.football.com/scores/arsenal
+
+Instead of returning a webpage it returns some set of data or resources
+
+They make use of HTTP methods
+1)GET=Fetches data
+2)POST=Inserts data
+3)DELETE=Deletes data
+4)PUT=Update data
+
+They make use of HTTP status codes
+1)200 means OK
+2)404 means not found
+3)500 means server error
